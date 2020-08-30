@@ -6,7 +6,7 @@
 body {
   padding: 4em 1em;
   background-color: var(--indigo-050);
-  font-family: "Noto Sans", Helvetica, sans-serif;
+  font-family: 'Noto Sans', Helvetica, sans-serif;
   font-size: 125%;
   line-height: 1.4;
   font-weight: normal;
@@ -22,17 +22,20 @@ p + *,
 }
 
 /* Tabby */
-[data-theme="tamagotchi"] {
+[data-theme='tamagotchi'] {
   --border-color: hsl(352, 100%, 40%);
   --text-color: hsl(352, 97%, 23%);
 }
-
-[data-theme="digimon"] {
+[data-theme='tamaHOchi'] {
+  --border-color: hsl(352, 100%, 40%);
+  --text-color: hsl(352, 97%, 23%);
+}
+[data-theme='digimon'] {
   --border-color: hsl(215, 46%, 42%);
   --text-color: hsl(215, 63%, 23%);
 }
 
-[data-theme="pokemon"] {
+[data-theme='pokemon'] {
   --border-color: hsl(46, 100%, 52%);
   --text-color: hsl(43, 26%, 26%);
 }
@@ -70,7 +73,7 @@ p + *,
   left: 0;
   right: 0;
   display: block;
-  content: "";
+  content: '';
   border-bottom: 0.5em solid white;
 }
 
