@@ -26,10 +26,7 @@ p + *,
   --border-color: hsl(352, 100%, 40%);
   --text-color: hsl(352, 97%, 23%);
 }
-[data-theme='tamaHOchi'] {
-  --border-color: hsl(352, 100%, 40%);
-  --text-color: hsl(352, 97%, 23%);
-}
+
 [data-theme='digimon'] {
   --border-color: hsl(215, 46%, 42%);
   --text-color: hsl(215, 63%, 23%);
